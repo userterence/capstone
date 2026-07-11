@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance System</title>
+</head>
+<body>
+    <h2>Record Attendance</h2>
+
+    <form action="AttendanceServlet" method="post">
+        Student ID: <input type="number" name="studentId" required><br><br>
+
+        Status:
+        <select name="status">
+            <option value="Present">Present</option>
+            <option value="Absent">Absent</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
